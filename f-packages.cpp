@@ -11,8 +11,8 @@ int main() {
 
     double round_down = floor(num);
     double round_up = ceil(num);
-
     double power = pow(2, 3);
+    
     cout << "round down: " << round_down << endl << "round up: " << round_up << endl << "power: "<< power;
     return 0; 
 }

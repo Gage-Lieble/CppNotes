@@ -3,8 +3,8 @@ using namespace std;
 
 int main(){
     cout << "Enter a number: ";
-    int value;
-    cin >> value;
+    int value; // declare var for user input
+    cin >> value; // set that var to what the user enters
     cout << value << endl;
 
     // accept multi step inputs

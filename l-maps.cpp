@@ -24,7 +24,7 @@ int main() {
     myMap.erase('b');
     // myMap.clear(); // <- clears entire map
 
-    cout << myMap['b'] << "  <- returned 0 because it does not exist" << endl;
+    cout << myMap['b'] << " <- returned 0 because it does not exist" << endl;
 
     // EXTRA METHODS
     // myMap.empty(); // <- checks if map is empty. returns 1 if empty, returns 0 if full
@@ -34,7 +34,7 @@ int main() {
     // LOOPING
 
     for (auto iterator = myMap.begin(); iterator != myMap.end(); ++iterator){ // ++iterator : increments the iterator to move to next key val pair
-        cout << (*iterator).first << " : " << iterator->second << endl; // (*itr).option   is the same as  itr->option
+        cout << (*iterator).first << " : " << iterator->second << endl; // (*itr).option   is the same as  itr->option (first=key, second=value)
     };
     
     return 0;
