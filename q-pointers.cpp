@@ -13,7 +13,7 @@ int main() {
 
     // de-reference (get actual value instead of memory address that pointer points too)
     cout << "dereference..." << endl;
-    cout << "*z: " << *z << endl; // *<varname> dereferences a memory address
+    cout << "*z: " << *z << endl; // / *<varname> dereferences a memory address
 
     // increment
     int arr[] = {4,5,6};

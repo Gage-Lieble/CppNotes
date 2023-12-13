@@ -6,6 +6,7 @@
         "string": "cpp",
         "*.tcc": "cpp",
         "limits": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "numbers": "cpp"
     }
 }
